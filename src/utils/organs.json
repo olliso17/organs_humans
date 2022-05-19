@@ -1,0 +1,116 @@
+[{
+        "id": 0,
+        "name": "Boca",
+        "photo": "./assets/boca.jpg",
+        "description": "A boca blabla"
+    },
+
+    {
+        "id": 1,
+        "name": "coração",
+        "photo": "./assets/coracao.jpg",
+        "description": "O coração bate forte"
+    },
+    {
+        "id": 2,
+        "name": "cérebro",
+        "photo": "./assets/cerebro.jpg",
+        "description": "O cérebro pensa besteira"
+    },
+    {
+        "id": 3,
+        "name": "bexiga",
+        "photo": "./assets/bexiga.jpg",
+        "description": "A bexiga urina"
+    },
+    {
+        "id": 4,
+        "name": "esofago",
+        "photo": "./assets/esofago.jpg",
+        "description": "O esofago refluxo"
+    },
+    {
+        "id": 5,
+        "name": "estomago",
+        "photo": "./assets/estomago.jpg",
+        "description": "o estomago blabla"
+    },
+    {
+        "id": 6,
+        "name": "faringe",
+        "photo": "./assets/faringe.jpg",
+        "description": "A faringe blabla"
+    },
+    {
+        "id": 7,
+        "name": "intestino delgado",
+        "photo": "./assets/intestino_delgado.jpg",
+        "description": "o intestino delgado blabla"
+    },
+    {
+        "id": 8,
+        "name": "intestino grosso",
+        "photo": "./assets/intestino_grosso.jpg",
+        "description": "o intestino grosso blabla"
+    },
+    {
+        "id": 9,
+        "name": "laringe",
+        "photo": "./assets/laringe.jpg",
+        "description": "A laringe blabla"
+    },
+    {
+        "id": 10,
+        "name": "medula espinhal",
+        "photo": "./assets/medula_espinhal.jpg",
+        "description": "A medula espinhal blabla"
+    },
+    {
+        "id": 11,
+        "name": "ovarios",
+        "photo": "./assets/ovarios.jpg",
+        "description": "A ovarios blabla"
+    },
+    {
+        "id": 12,
+        "name": "pele",
+        "photo": "./assets/pele.jpg",
+        "description": "A pele blabla"
+    },
+    {
+        "id": 13,
+        "name": "penis",
+        "photo": "./assets/penis.jpg",
+        "description": "o penis blabla"
+    },
+    {
+        "id": 14,
+        "name": "pulmoes",
+        "photo": "./assets/pulmoes.jpg",
+        "description": "o pulmoes blabla"
+    },
+    {
+        "id": 15,
+        "name": "rins",
+        "photo": "./assets/rins.jpg",
+        "description": "A rins blabla"
+    },
+    {
+        "id": 16,
+        "name": "testiculo",
+        "photo": "./assets/testiculo.jpg",
+        "description": "A testiculo blabla"
+    },
+    {
+        "id": 17,
+        "name": "utero",
+        "photo": "./assets/utero.jpg",
+        "description": "A utero blabla"
+    },
+    {
+        "id": 18,
+        "name": "vasos sanguíneos",
+        "photo": "./assets/vasos_sanguineos.jpg",
+        "description": "A vasos sanguíneos blabla"
+    }
+]
