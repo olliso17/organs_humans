@@ -4,15 +4,17 @@
     justify-content: center;
     align-items: center;
     padding: 1vw;
-    background-color: rgb(247, 241, 250);
+    background-color: #9e9e9e;
     border-style: solid;
     border-radius: 1vw;
-    border-color: blueviolet;
+    border-color: #000a12;
 }
 
 .titulo {
     width: 100%;
     text-align: center;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.1em #000a12;
 }
 
 .organsList {
@@ -24,8 +26,8 @@
     margin: 1vw;
     border-style: solid;
     border-radius: 1vw;
-    border-color: blueviolet;
-    background-color: blueviolet;
+    border-color: #000a12;
+    background-color: #000a12;
 }
 
 .image {
@@ -34,18 +36,14 @@
     height: 100%;
     align-items: center;
     justify-content: center;
-    border-color: blueviolet;
+    border-color: #000a12;
     border-style: solid;
     border-top: none;
     border-bottom: none;
     border-left: none;
     border-radius: 1vw;
-    background-color: white;
-    border-radius: 50%;
-}
-
-.image:hover {
     background-color: rgb(247, 241, 250);
+    border-radius: 50%;
 }
 
 img {
@@ -53,6 +51,49 @@ img {
     height: 100%;
     border-radius: 50%;
     margin: 1vw;
+    animation-name: continue;
+    animation-duration: 2s;
+    animation-delay: -3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+#img:hover {
+    background-color: #cfcfcf;
+    width: 100%;
+    height: 100%;
+    animation-duration: 0s;
+}
+
+@keyframes continue {
+    0% {
+        width: 96%;
+        height: 96%;
+    }
+    15% {
+        width: 99%;
+        height: 99%;
+    }
+    30% {
+        width: 98%;
+        height: 98%;
+    }
+    45% {
+        width: 97%;
+        height: 97%;
+    }
+    60% {
+        width: 98%;
+        height: 98%;
+    }
+    75% {
+        width: 99%;
+        height: 99%;
+    }
+    100% {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 .list {
@@ -62,7 +103,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-color: blueviolet;
+    border-color: #000a12;
     border-style: solid;
     border-top: none;
     border-bottom: none;
