@@ -1,14 +1,16 @@
+import Button from 'components/Button';
 import organs from '../../utils/organs.json';
 import '../OrgansList/OrganList.css';
 
 export default function OrgansList(): JSX.Element {
+    
     const organ = organs.map(function (value) {
         return <div className='organsList'>
-            <div className='image'>
+            <Button className='image' onClick={()=>alert(value.name)}>
                 <img src={value.photo} alt={value.name} ></img>
-            </div>
+            </Button>
 
-            <div className='list'>
+            <div className='list' key={value.id}>
                 <p>Id: {value.id}</p>
                 <h3>{value.name}</h3>
                 <h5>{value.description}</h5>
