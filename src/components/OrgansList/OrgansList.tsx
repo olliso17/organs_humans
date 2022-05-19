@@ -7,7 +7,7 @@ export default function OrgansList(): JSX.Element {
     const organ = organs.map(function (value) {
         return <div className='organsList'>
             <Button className='image' onClick={()=>alert(value.name)}>
-                <img src={value.photo} alt={value.name} ></img>
+                <img id='img' src={value.photo} alt={value.name} ></img>
             </Button>
 
             <div className='list' key={value.id}>
